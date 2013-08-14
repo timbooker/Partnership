@@ -46,7 +46,7 @@ namespace Partnership.Framework.Tests
             var output = wordFilter.Act(inputWordList);
 
             // assert
-            Assert.That(output.Contains("jigsaw"));
+            Assert.That(output.Contains("weaver"));
             Assert.That(output.Contains("albums"));
 
             Assert.That(output.Count(), Is.EqualTo(2));
