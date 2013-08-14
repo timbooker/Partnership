@@ -12,7 +12,7 @@ namespace Partnership.Framework.Tests
         {
             // arrange
             var wordFilter = new WordMaker();
-            var inputWordList = new List<string> {"albums", "beaver", "al", "jig", "weaver"};
+            var inputWordList = new List<string> {"albums", "something", "al", "jig", "elsaer", "peter"};
 
             // act
             var output = wordFilter.Act(inputWordList);
@@ -40,7 +40,7 @@ namespace Partnership.Framework.Tests
         {
             // arrange
             var wordFilter = new WordMaker();
-            var inputWordList = new List<string> {"albums", "al", "jigsaw", "bums", "jig", "saw"};
+            var inputWordList = new List<string> {"albums", "al", "weaver", "bums", "we", "aver"};
 
             // act
             var output = wordFilter.Act(inputWordList);
